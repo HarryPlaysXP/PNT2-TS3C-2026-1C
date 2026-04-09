@@ -27,3 +27,6 @@ console.log (nombres)
 console.log ("5)")
 const ropa = productos.filter(producto => producto.categoria === "Ropa");
 console.log (ropa)
+console.log ("6)")
+const mayor3000 = productos.filter(producto => producto.precio > 3000);
+console.log (mayor3000)
