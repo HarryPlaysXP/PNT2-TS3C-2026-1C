@@ -1,9 +1,5 @@
 console.log ("Practica - Clase 4")
 console.log ("-".repeat(100))
-//Datos simulados
-const productos = [
-
-];
 console.log ("Ejercicio 1: Mostrar Títulos de alguna información obtenida")
 
 fetch("https://rickandmortyapi.com/api/character")
