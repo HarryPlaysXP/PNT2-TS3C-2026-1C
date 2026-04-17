@@ -1,6 +1,6 @@
 console.log ("Practica - Clase 4")
 console.log ("-".repeat(100))
-console.log ("Ejercicio 1: Mostrar Títulos de alguna información obtenida")
+console.log ("Ejercicio 2: Eliminar un Post")
 const axios = require("axios");
 
 axios.delete("https://jsonplaceholder.typicode.com/posts/1")
