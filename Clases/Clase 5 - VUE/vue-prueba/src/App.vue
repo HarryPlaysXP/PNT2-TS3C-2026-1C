@@ -1,7 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import AppFooter from './components/AppFooter.vue';
+import AppMenu from './components/AppMenu.vue';
+import ProductsView from './views/ProductsView.vue';
 </script>
 
 <template>
-  <HelloWorld />
+ <AppMenu />
+   <RouterView />
+ <AppFooter />
 </template>

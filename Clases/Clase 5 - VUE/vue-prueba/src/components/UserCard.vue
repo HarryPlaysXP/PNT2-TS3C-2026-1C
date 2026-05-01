@@ -1,1 +1,0 @@
-// este es un componente hijo de Card
