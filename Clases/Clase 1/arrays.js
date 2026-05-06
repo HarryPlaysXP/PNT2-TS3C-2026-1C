@@ -1,4 +1,4 @@
-console.log ("Missionbriefing")
+console.log ("Arrays en JavaScript")
 
 //metodo para mostras arrays
 const mostrarArray = (array)=>{
