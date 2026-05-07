@@ -1,0 +1,14 @@
+console.log("Practica Clase 3 - Guia de ejercicios ES6");
+console.log("Ejercicio 5: Arrow Functions");
+console.log("a) Convierte la siguiente función tradicional a una arrow function:");
+const saludar = (nombre) => `Hola, ${nombre}!`;
+console.log(saludar("Juan"));
+console.log("b) Crea una arrow function que reciba un número y devuelva su cuadrado.");
+const cuadrado = (numero)=> numero**2;
+console.log(cuadrado(5));
+console.log("c) Crea una arrow function que reciba dos números y devuelva el mayor de ellos.");
+const mayor = (a, b) => a >b ? a : b ;
+console.log(mayor(10, 20));
+console.log("d) Crea una arrow function que reciba un array y devuelva otro array con los elementos al cuadrado. Usamos map() adentro y la menor cantidad de codigo posible.");
+const baseuno = (array) => array.map(x => x**2);
+console.log(baseuno([1, 2, 3, 4, 5]));
